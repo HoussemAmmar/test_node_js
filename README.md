@@ -7,7 +7,6 @@
 ```bash
 $ npm install
 ```
-
 ### Running the app
 
 ```bash
@@ -16,9 +15,15 @@ $ npm run start
 
 # watch mode
 $ npm run start:dev
+```
 
+# Note
 
+The env file is not ignored in this repository on purpose just to make it easier for the reviewer.
 
-# Notes
+# Deployment (Bonus)
 
-The env file is not ignored in this reposotry on purpose just to make it easier for the reviewer.
+The reviewer can test all senarios in this deployed link : 
+```bash
+https://test-nodejs-rl1k.onrender.com/cities?codePostal=60000
+```
